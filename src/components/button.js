@@ -15,6 +15,7 @@ const Button = ({variant, textElement, imgElement}) =>  {
                 styles.button,
                 styles[`button--${buttonTypes[variant]}`],
                 ])}
+                type="button"
             >
                 <img 
                 src={imgElement} 
