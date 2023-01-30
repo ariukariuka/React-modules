@@ -2,7 +2,7 @@ import Button from "./components/button";
 function App() {
   return (
       <>
-         <Button variant="blue"/>
+         <Button variant="blue"  />
       </>
   );
 }   
