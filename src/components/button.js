@@ -2,7 +2,7 @@ import React from "react";
 import styles from './style.module.css'
 import { getClasses } from './utlis/getClasses'
 
-const Button = ({variant}) => {
+const Button = ({variant, textElement, imgElement}) =>  {
         const buttonTypes = {
         black: "black",
         red: "red",
@@ -15,7 +15,13 @@ const Button = ({variant}) => {
                 styles.button,
                 styles[`button--${buttonTypes[variant]}`],
                 ])}
-            >BUTTON</button>
+            >
+                <img 
+                src={imgElement} 
+                className={variant === 'black' ? styles.displayNone :  styles.buttonImg}
+                alt='img'
+                />
+                {textElement}</button>
         </>
     )
 }
