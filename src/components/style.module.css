@@ -1,0 +1,10 @@
+
+.button--black {
+	background-color: #000;
+}
+.button--red {
+	background-color: red;
+}
+.button--blue {
+	background-color: rgb(25, 0, 255);
+}
