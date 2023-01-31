@@ -22,7 +22,8 @@ const Button = ({variant, textElement, imgElement}) =>  {
                 className={variant === 'black' ? styles.displayNone :  styles.buttonImg}
                 alt='img'
                 />
-                {textElement}</button>
+                {textElement}
+            </button>
         </>
     )
 }
